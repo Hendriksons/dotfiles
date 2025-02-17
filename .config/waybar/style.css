@@ -1,0 +1,76 @@
+@define-color rosewater #f5e0dc;
+@define-color flamingo #f2cdcd;
+@define-color pink #f5c2e7;
+@define-color mauve #cba6f7;
+@define-color red #f38ba8;
+@define-color maroon #eba0ac;
+@define-color peach #fab387;
+@define-color yellow #f9e2af;
+@define-color green #a6e3a1;
+@define-color teal #94e2d5;
+@define-color sky #89dceb;
+@define-color sapphire #74c7ec;
+@define-color blue #89b4fa;
+@define-color lavender #b4befe;
+@define-color text #cdd6f4;
+@define-color subtext1 #bac2de;
+@define-color subtext0 #a6adc8;
+@define-color overlay2 #9399b2;
+@define-color overlay1 #7f849c;
+@define-color overlay0 #6c7086;
+@define-color surface2 #585b70;
+@define-color surface1 #45475a;
+@define-color surface0 #313244;
+@define-color base rgba(30, 30,46,0.7);
+@define-color mantle #181825;
+@define-color crust #11111b;
+* {
+  font-family: JetBrainsMono;
+  font-weight: bold;
+  font-size: 14;
+}
+window#waybar {
+  background-color: transparent;
+}
+.module {
+  background-color: @base;
+  border-radius: 10;
+  color: @text;
+  padding: 0 15 0 15;
+  margin: 2 4 2 4
+}
+#workspaces{
+  padding: 0 5 0 5;
+  color: @maroon;
+}
+#workspaces button {
+  color: @maroon;
+}
+#workspaces button.active {
+  color: @text;
+}
+#workspaces button.urgent {
+  background-color: @text;
+}
+label#network.module {
+  padding: 0 20 0 13;
+  font-size:12;
+  font-weight: normal;
+}
+window#waybar {
+}
+window#waybar.empty #window {
+  background-color: transparent;
+}
+label#custom-exit.module {
+  padding: 0 16 0 12;
+}
+box.horizontal.modules-left {
+  margin-left: 15;
+}
+box.horizontal.module-right {
+  margin-right: 15;
+}
+label#custom-notific.module {
+  padding: 0 15 0 13;
+}
