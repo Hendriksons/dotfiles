@@ -7,6 +7,8 @@ Tools:
 * Fetching: Fastfetch
 * Browser: Zen / Librewolf
 * Wlogout
+* Wallpaper Tool: Waypaper
+* Wallpaper: in .wallpapers
 ## Screenshots
 ![](/screenshots/2025-02-17-205426_hyprshot.png)
 ![](/screenshots/2025-02-17-205449_hyprshot.png)
